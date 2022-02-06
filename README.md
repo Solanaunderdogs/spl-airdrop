@@ -9,7 +9,7 @@ Replace TOKEN_ADDRESS with your spl token address in **airdrop.py**.
 
 Replace TOKEN_AMOUNT with how many tokens to be sent to each address in **airdrop.py**.
 
-Replace ADDRESS with the addresses to be sent tokens in **airdrop.txt**.
+Replace WALLET_ADDRESS with the addresses to be sent tokens in **airdrop.txt**.
 
 
 If this was useful, come say hey on twitter [**@lostcatfc**](https://twitter.com/lostcatfc) **&** [**@triiq**](https://twitter.com/triiq_) :)
