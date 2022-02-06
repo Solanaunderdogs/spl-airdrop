@@ -11,5 +11,8 @@ Replace TOKEN_AMOUNT with how many tokens to be sent to each address in **airdro
 
 Replace WALLET_ADDRESS with the addresses to be sent tokens in **airdrop.txt**.
 
+Ensure you have the correct wallet & network set up with **solana config get**.
+
+Airdrop your vip list spl token with **python3 airdrop.py**.
 
 If this was useful, come say hey on twitter [**@lostcatfc**](https://twitter.com/lostcatfc) **&** [**@triiq**](https://twitter.com/triiq_) :)
