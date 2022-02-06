@@ -1,7 +1,7 @@
 # spl-airdrop
 Python script to automate sending spl vip list tokens to community members.
 
-This script assumes you have [**python3**](https://https://www.python.org/downloads/) installed as well as both [**solana cli**](https://docs.solana.com/cli/install-solana-cli-tools) & [**spl-token**](https://spl.solana.com/token).
+This script assumes you have [**python3**](https://https://www.python.org/downloads/) installed as well as both the [**solana cli**](https://docs.solana.com/cli/install-solana-cli-tools) & [**spl-token**](https://spl.solana.com/token).
 
 
 
