@@ -2,7 +2,7 @@ import subprocess
 with open('airdrop.txt', 'r+') as f: #r+ does the work of rw
     lines = f.readlines()
     for i, line in enumerate(lines):
-        list_files = subprocess.Popen(["spl-token", "transfer", "--fund-recipient", "TOKEN_ADDRESS", "TOKEN_AMOUNT",lines[i].strip()], )
+        list_files = subprocess.Popen(["spl-token", "transfer", "--fund-recipient", "--allow-unfunded-recipient", "TOKEN_ADDRESS", "TOKEN_AMOUNT",lines[i].strip()], )
         list_files.wait()
     f.seek(0)
     for line in lines:
